@@ -5845,3 +5845,11 @@ a.changecolor {
 		max-height: 20px;
 	}
 }
+#main .img-bg-bottom
+{display:none;}
+@media (max-width: 1024px) { 
+	#main .img-bg-bottom
+	{display:block;} 
+	#main #hero
+	{display:none;}
+}
